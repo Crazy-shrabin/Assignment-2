@@ -51,3 +51,57 @@ d = 40
 # print("OR operator", (a==b) or (a>b))
 
 # print(type(a))
+
+
+# name = input("Enter your first name:")
+# surname = input("Enter your surname:")
+# age=int(input("Enter your age:"))
+# caste=input("Enter your case:")
+# nationality=input("Enter your nationality:")
+
+# print(".")
+# print(".")
+# print(".")
+# print(".")
+# print(".")
+
+# print("Your full name is:",(name+surname))
+# print("Your age is:", age)
+# print("Your caste is:",caste)
+# print("your nationality is:",nationality)
+
+
+# val=int(input("Enter the number:"))
+
+# numbers=int(input("enter the number:"))
+
+# print("The number is:", numbers - age)
+
+# val=float(input("Enter the amount:"))
+# print("Total value of float is:",float)
+
+# print(type(val))
+
+# name=str(input("Enter your name:"))
+# age=int(input("Enter your age:"))
+# mark=float(input("Enter your marks"))
+
+# print("Welcome",name, "Your age is:", age, "Your mark is:", mark)
+
+
+# number1=int(input("Enter the 1st number:"))
+# number2=int(input("Enter the 2nd number:"))
+# print("The sum of 2 numbers are:", number1 + number2)
+
+# s=float(input("Enter the value of 1 side of the square:"))
+
+# print("The area of the square is:", s**2)
+
+
+# n1=float(input("Enter the number:"))
+# n2=float(input("Enter the number:"))
+# print("The average number is:", (n1+n2)/2)
+
+# a = int(input("Enter the 1st value:"))
+# b = int(input("Enter the 2nd value:"))
+# print(a>=b)
