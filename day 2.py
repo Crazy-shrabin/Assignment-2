@@ -1,7 +1,7 @@
-a = 5
-b = 10
-c = 20
-d = 40
+# a = 5
+# b = 10
+# c = 20
+# d = 40
 
 # a = str(a)
 
@@ -291,7 +291,7 @@ d = 40
 # mark = [32,53,64,23,57]
 # print(mark[-3:-1])
 
-list = [2,1,3]
+# list = [2,1,3]
 # list.append(69)
 # # print(list)
 # list.append(2)
@@ -300,25 +300,66 @@ list = [2,1,3]
 # list.sort()
 # print(list)
 
-list.append(77)
-list.sort()
-print(list)
-list.append(78)
+# list.append(77)
+# list.sort()
+# print(list)
+# list.append(78)
 
-list.sort(reverse=True)
-print(list)
+# list.sort(reverse=True)
+# print(list)
 
-list.reverse()
-print(list)
+# list.reverse()
+# print(list)
 
-list.insert(0,100)
-list.sort()
-print(list)
+# list.insert(0,100)
+# list.sort()
+# print(list)
 
-list.insert(0,99)
-list.sort()
-print(list)
+# list.insert(0,99)
+# list.sort()
+# print(list)
 
 
-list.pop(4)
-print(list)
+# list.pop(4)
+# print(list)
+
+
+# movie1 = input("Enter the 1 movie:")
+# movie2 = input("Enter the 2 movie:")
+# movie3 = input("Enter the 2 movie:")
+
+# movie = [ movie1, movie2, movie3]
+# print(movie)
+
+# print(type(movie))
+
+# a = input("Enter the num:")
+# b = input("Enter the num:")
+# c = input("Enter the num:")
+
+
+# word1 = [a,b,c]
+
+# wor = word1.copy()
+# wor.reverse()
+
+# if(wor == word1):
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
