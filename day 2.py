@@ -318,3 +318,7 @@ print(list)
 list.insert(0,99)
 list.sort()
 print(list)
+
+
+list.pop(4)
+print(list)
