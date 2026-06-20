@@ -288,8 +288,33 @@ d = 40
 
 
 
+# mark = [32,53,64,23,57]
+# print(mark[-3:-1])
 
+list = [2,1,3]
+# list.append(69)
+# # print(list)
+# list.append(2)
+# print(list)
 
-student = ["karan", 85, "Delhi"]
-student[1] = "99"
-print(student) 
+# list.sort()
+# print(list)
+
+list.append(77)
+list.sort()
+print(list)
+list.append(78)
+
+list.sort(reverse=True)
+print(list)
+
+list.reverse()
+print(list)
+
+list.insert(0,100)
+list.sort()
+print(list)
+
+list.insert(0,99)
+list.sort()
+print(list)
