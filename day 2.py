@@ -251,3 +251,26 @@ d = 40
 #     print("odd")
 
 
+# a = int(input("Enter the 1st number: "))
+# b = int(input("Enter the 2nd number: "))
+# c = int(input("Enter the 3rd number: "))
+
+# if (a > b and a > c):
+#     print("1st is the greatest.", a)
+# elif ( b > a and b > c ):
+#     print("2nd is the greatest.",b)
+# elif ( c > a and c > b ):
+#     print("3rd is the greatest number.",c)
+# else:
+#     print("Multiple numbers in the input are same.")
+
+
+
+# a = int(input("Num?"))
+
+# if( a % 7 == 0):
+#     print("It is divisible by 7, your num is: ", a)
+# else:
+#     print("It is NOT devisible by 7, your num is: ", a)
+
+
