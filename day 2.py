@@ -209,11 +209,45 @@ d = 40
 # else:
 #     print("Can not drive")
 
-age = int(input("Enter your age:"))
+# age = int(input("Enter your age:"))
 
-if(age >= 18):
-    print("Can drive")
-elif(age < 17 ):
-    print("cannot drive")
-else:
-    print("Error")
+# if(age >= 18):
+#     print("Can drive")
+# elif(age < 17 ):
+#     print("cannot drive")
+# else:
+#     print("Error")
+
+# mark = int(input("Enter the mark:"))
+
+# if(mark >+ 90):
+#     print("A")
+# elif(mark>=80 and mark < 90):
+#     print("B")
+# elif(mark >= 70 and mark < 80):
+#     print("C")
+# elif(mark < 70):
+#     print("D")
+# else:
+#     print("fail")
+
+
+# age = int(input("Enter the age: "))
+
+# #nesting
+# if(age>= 18):
+#     if(age >= 80):
+#         print("Cannot drive")
+#     else:
+#         print("Can drive")
+# else:
+#     print("Cannot Drive")
+
+# num = int(input("Enter the num:"))
+
+# if (num % 2 == 0):
+#     print("Even")
+# else:
+#     print("odd")
+
+
