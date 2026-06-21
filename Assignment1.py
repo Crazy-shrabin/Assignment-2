@@ -305,8 +305,27 @@ print(len(list1))
 
 
 
-5.	Appending Elements:
-Start with an empty list and append the numbers 1, 2, and 3. Print the list.
+# 5.	Appending Elements:
+# Start with an empty list and append the numbers 1, 2, and 3. Print the list.
+numbers = []
+
+numbers.append(1)
+numbers.append(2)
+numbers.append(3)
+
+print(numbers)
+
+
+
+
+
+
+
+# 6.	Inserting an Element:
+# Given a list [1, 3, 4], insert the number 2 at the correct position so that the list becomes [1, 2, 3, 4].
+numbers1 = [1,3,4]
+numbers1.insert(1,2)
+print(numbers1)
 
 
 
@@ -315,6 +334,32 @@ Start with an empty list and append the numbers 1, 2, and 3. Print the list.
 
 
 
+# 7.	Removing an Element:
+# Remove the number 3 from the list [1, 2, 3, 4, 5] using a list method and print the new list.
+number2 = [1,2,3,4,5]
+number2.remove(3)
+print(number2)
+
+
+
+
+
+
+# 8.	Popping an Element:
+# Given the list [10, 20, 30, 40], pop the last element and print the element and the updated list.
+number3 = [10,20,30,40]
+number3.pop(-1)
+number3 = number3
+print(number3)
+
+
+
+
+
+# 9.	Slicing a List:
+# Given the list [0, 1, 2, 3, 4, 5], print a slice that contains the elements from index 2 to 4.
+number4 = [0, 1, 2, 3, 4, 5]
+print(number4[2:5])
 
 
 
@@ -323,9 +368,24 @@ Start with an empty list and append the numbers 1, 2, and 3. Print the list.
 
 
 
+# 10.	List Concatenation:
+# Concatenate two lists, e.g., [1, 2, 3] and [4, 5, 6], and print the resulting list.
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+result = list1 + list2
+print(result)
 
 
 
+
+
+
+# 11.	Repeating a List:
+# Create a list [1, 2] and print the list repeated three times.
+number5 = [1,2]
+repeated_list = number5*3
+print(repeated_list)
 
 
 
