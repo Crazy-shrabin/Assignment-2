@@ -247,3 +247,74 @@ f1 = 0.1 + 0.2
 f2 = 0.3
 
 print(f1 == f2)
+
+
+
+
+
+
+
+
+
+
+#------------------------Assignment 2--------------------------------
+#Python Data Structures Assignment 
+
+# 1.	Create a List:
+# Create a list containing the numbers 1 through 15. Print the list
+num = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+print(num)
+
+
+
+
+
+
+# 2.	List of Strings:
+# Create a list of your five favorite fruits. Print the list.
+fruits = ["apple", "banana", "cherry", "grapes", "gauva"]
+print(fruits)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
