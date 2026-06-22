@@ -389,8 +389,106 @@ print(repeated_list)
 
 
 
+# 12.	Copying a List:
+# Create a copy of a given list and print both the original and the copy.
+number6 = [1,2]
+number6_copy = number6
+print(number6)
+print(number6_copy)
 
 
 
 
 
+
+# 13.	Clearing a List:
+# Given any list, use a method to clear all its elements and then print the empty list.
+list3 = ["hello", "cow", "hippo", "classroom","school"]
+list3.clear()
+print(list3)
+
+
+
+
+
+#-------------------------------Section 2: Tuples--------------------------------
+# 1.	Create a Tuple:
+# Create a tuple containing the numbers 1, 2, and 3. Print the tuple.
+tuple1 = (1,2,3)
+print(tuple1)
+
+
+
+
+# 2.	Tuple of Strings:
+# Create a tuple of three different color names and print it.
+tuple2 = ("car", "cat", "dog")
+print(tuple2)
+
+
+
+
+
+# 3.	Accessing Tuple Elements:
+# Given the tuple (10, 20, 30, 40), print the second element.
+tuple3 = (10,20,30,40)
+print(tuple3[1])
+
+
+
+
+# 4.	Tuple Slicing:
+# Using the tuple (0, 1, 2, 3, 4), print a slice that contains elements from index 1 to 3.
+tuple4 = (0, 1, 2, 3, 4)
+print(tuple4[1:4])
+
+
+
+
+
+# 5.	Concatenating Tuples:
+# Concatenate two tuples, e.g., (1, 2) and (3, 4), and print the result.
+tuple5 = (1,2)
+tuple6 = (3,4)
+print((tuple5)+(tuple6))
+
+
+
+
+
+
+# 6.	Tuple Unpacking:
+# Store the tuple ("Alice", 25, "New York") into three variables and print them.
+tuple7 = ("Alice", 25, "New York")
+name, age, city = tuple7
+print(name, age, city)
+
+
+
+
+
+# 7.	Convert List to Tuple:
+# Convert the list [1, 2, 3, 4] into a tuple and print the tuple.
+list4 = [1, 2, 3, 4]
+tuple8 = tuple(list4)
+print(type(tuple8))
+print(tuple8)
+
+
+
+
+
+# 8.	Counting Occurrences:
+# Given the tuple (1, 2, 2, 3, 2), count how many times the number 2 appears.
+tuple9 = (1, 2, 2, 3, 2)
+tuple10 = num.count(2) 
+print(tuple10)
+
+
+
+
+# 9.	Finding an Index:
+# In the tuple (10, 20, 30, 40), find the index of the element 30 and print it.
+tuple11 = (10, 20, 30, 40)
+tuple12 = tuple11.index(30)
+print(tuple12)
