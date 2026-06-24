@@ -50,3 +50,5 @@ student = {
 
 }
 print(student["subject"]["math"])
+
+print("bibek")
