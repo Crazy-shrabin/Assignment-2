@@ -55,19 +55,49 @@
 
 
 
-bibek = {
-    "name" : "Bibek_Parajuli",
-    "age" : 20,
-    "p_address": "lamjung",
-    "t_address" : "ktm"
+# bibek = {
+#     "name" : "Bibek_Parajuli",
+#     "age" : 20,
+#     "p_address": "lamjung",
+#     "t_address" : "ktm",
+#     "subject" : {
+#         "math" : 22,
+#         "sci" : 21,
+#         "eng" : 44,
+#         }
+# }
 
-}
 
-bibek["name"] = "Shrabin00007"
-bibek["age"] = 21
-bibek["subject"] = {
-    "math" : 22,
-    "sci" : 21
-}
 
-print(bibek["subject"])
+
+
+
+# bibek = {"city" : "balaju"}
+# print(bibek)
+#myDict.keys()      #returns all keys
+#myDict.values()      #returns all values
+#myDict.items()     #returns all (keys, val) pairs as tuple
+#mydict.get("key")     #returns the key according to value
+#mydict.update(newDict)  #inserts the specified items in the dictionary
+
+
+
+
+
+
+
+
+
+
+
+
+#--------------------------set in python-------------------------------------
+# Set is the collection of the unordered items.
+# Each elements in the set must be unique & immutable.
+
+mums = {1,2,3,4}
+set2 = {1,2,2,2}
+
+#repeted elements stored only once, so it restores to {1,2}
+
+null_set = set()      #empty set syntax
